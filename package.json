@@ -1,0 +1,30 @@
+{
+  "name": "buyscan-node",
+  "version": "1.0.0",
+  "description": "API for BuyScan receipt scanner",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilkowalski/buyscan-node.git"
+  },
+  "keywords": [
+    "ocr",
+    "receipts",
+    "scan",
+    "api"
+  ],
+  "author": "Kamil Kowalski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamilkowalski/buyscan-node/issues"
+  },
+  "homepage": "https://github.com/kamilkowalski/buyscan-node",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "multer": "^1.1.0"
+  }
+}
