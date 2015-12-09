@@ -1,6 +1,6 @@
 var multer = require('multer');
 var upload = multer({ dest: 'uploads/' });
-var recognition = require("./handlers/recognition");
+var recognition = require("./services/recognition");
 
 exports.setupRoutes = function (app) {
 
